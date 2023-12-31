@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../Img/photo-1548092372.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F99820;
+    padding: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 15px;
+    color:#F99820;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    color: #F99820;
+}
+
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: 200px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid #F99820;
+}
+
+form input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px ;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px;
+
+}
+
+form input[type="submit"]:hover {
+    background-color: #F99820;
+    border: 1px solid #F99820;
+}
+
+.error{
+    color: red;
+}
+
+
